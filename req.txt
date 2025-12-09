@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+python-multipart
+Pillow
+pydantic
+google-generativeai
+pytesseract
+flask
+pymongo
+pdf2image
+opencv-python
+numpy
+openai
+fuzzywuzzy

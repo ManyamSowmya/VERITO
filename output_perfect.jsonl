@@ -1,0 +1,99 @@
+{
+  "document": {
+    "doc_type": "Passport",
+    "doc_number": "1030069155",
+    "first_name": "Semame",
+    "last_name": "Al-Hassan",
+    "dob": "1990-05-30",
+    "father_name": "Omar",
+    "mother_name": null,
+    "place_of_birth": "Damascus",
+    "issue_date": null,
+    "expiry_date": "2024-12-11",
+    "address": null,
+    "image_quality": {
+      "blur_score": 0.7169484186666666,
+      "contrast_score": 0.3768447357135213
+    },
+    "ocr_conf_mean": 0.5146666666666667,
+    "page": 1
+  },
+  "validation": {
+    "status": "REJECTED",
+    "risk_score": 100,
+    "flags": [
+      "Expired document"
+    ]
+  }
+}
+{
+  "document": {
+    "doc_type": "Identity Card",
+    "doc_number": "SYD9876543",
+    "first_name": "Momo",
+    "last_name": "Omar",
+    "dob": "1990-05-30",
+    "father_name": "Al-Hassan",
+    "mother_name": null,
+    "place_of_birth": null,
+    "issue_date": "2017-03-20",
+    "expiry_date": "2027-03-19",
+    "address": "Damascus, Syria",
+    "image_quality": {
+      "blur_score": 0.0,
+      "contrast_score": 0.3371781645095842
+    },
+    "ocr_conf_mean": 0.7930909090909091,
+    "page": 2
+  },
+  "validation": {
+    "status": "REJECTED",
+    "risk_score": 100,
+    "flags": [
+      "High-risk country",
+      "Invalid PAN format"
+    ]
+  }
+}
+{
+  "document": {
+    "doc_type": "Utility Bill",
+    "doc_number": "1234567890-1",
+    "first_name": "Omar",
+    "last_name": "Al-Hassan",
+    "dob": null,
+    "father_name": null,
+    "mother_name": null,
+    "place_of_birth": null,
+    "issue_date": "09/07/2019",
+    "expiry_date": null,
+    "address": "14-Al-Mansour Rd, Al-Buhayra, damascus, Syria",
+    "image_quality": {
+      "blur_score": 0.3044732133333333,
+      "contrast_score": 0.24712411890164032
+    },
+    "ocr_conf_mean": 0.692427536231884,
+    "page": 3
+  },
+  "validation": {
+    "status": "REJECTED",
+    "risk_score": 100,
+    "flags": [
+      "High-risk country",
+      "Poor image quality",
+      "Invalid PAN format"
+    ]
+  }
+}
+{
+  "cumulative_validation": {
+    "status": "REJECTED",
+    "risk_score": 300,
+    "flags": [
+      "Expired document",
+      "High-risk country",
+      "Invalid PAN format",
+      "Poor image quality"
+    ]
+  }
+}

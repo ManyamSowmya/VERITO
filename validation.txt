@@ -1,0 +1,12 @@
+Data Validation Layer
+
+Format validation: Check date formats (DOB, expiry), country codes (ISO 3166), phone/email formats, IBAN/account numbers, PAN/Aadhaar number patterns.
+
+Cross-field consistency: DOB vs Age, Address vs Country, Expiry date vs Issue date.
+
+Duplicate/Repetition check: Detect if the same document ID has already been uploaded.
+
+Blacklist check: Names, phone numbers, email domains, IPs against blacklist.
+
+Watchlist/PEP/Sanctions check: Integration with public/global watchlists (OFAC, UN lists).
+
